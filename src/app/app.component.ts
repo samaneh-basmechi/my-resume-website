@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { RootScopeService } from './services/root-scope/root-scope.service';
-import { SeoService } from './services/seo/seo.service';
+import { RootScopeService } from './core/services/root-scope/root-scope.service';
+import { SeoService } from './core/services/seo/seo.service';
 
 @Component({
   selector: 'app-root',
