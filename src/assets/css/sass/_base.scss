@@ -1,10 +1,7 @@
-/*=================================================================*/
-/*                      BASE
-/*=================================================================*/
 body {
     color: #888;
     background-color: #F6F7FF;
-    font-family: $fontbody;
+    font-family: $fontBody;
     font-size: 14px;
     line-height: 1.7;
     overflow-x: hidden;
@@ -36,14 +33,14 @@ img {
 }
 
 .color-white {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     h1, h2, h3, h4, h5, h6 {
-        color: $colorlightpurple;
+        color: $colorLightPurple;
     }
 }
 
 .background-blue {
-    background: $colorpurple;
+    background: $colorPurple;
 }
 
 /*=================================================================*/
@@ -51,7 +48,7 @@ img {
 /*=================================================================*/
 h1,h2,h3,h4,h5,h6 {
     color: #000;
-    font-family: $fontstack;
+    font-family: $fontBody;
     font-weight: 700;
     margin: 20px 0;
 }
@@ -73,11 +70,11 @@ h4 {
 }
 
 a {
-    color: $colordefault;
+    color: $colorBlack;
     outline: 0;
     @include transition(.3s);
     &:hover {
-        color: $colorgreen;
+        color: $colorGreen;
         text-decoration: none;
     }
     &:focus {
@@ -113,13 +110,13 @@ pre {
 }
 
 ::selection {
-    color: $colorlightpurple;
-    background: $colorgreen;
+    color: $colorLightPurple;
+    background: $colorGreen;
 }
 
 ::-moz-selection {
-    color: $colorlightpurple;
-    background: $colorgreen;
+    color: $colorLightPurple;
+    background: $colorGreen;
 }
 
 .z-1 {

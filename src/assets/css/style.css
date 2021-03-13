@@ -26,7 +26,7 @@ Description: Personal Portfolio & Resume HTML Template
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic-ext");
-@import "./sass/mixins.scss";
+@import "sass/_mixins.scss";
 /*=================================================================*/
 
 
@@ -68,7 +68,7 @@ img {
 }
 
 .color-white {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 .color-white h1,
@@ -77,7 +77,7 @@ img {
 .color-white h4,
 .color-white h5,
 .color-white h6 {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 .background-blue {
@@ -166,12 +166,12 @@ pre {
 }
 
 ::selection {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #FF5959;
 }
 
 ::-moz-selection {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #FF5959;
 }
 
@@ -266,7 +266,7 @@ pre {
 /*=================================================================*/
 
 header.left {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #4A63E7;
     border-radius: 20px;
     min-height: 620px;
@@ -326,7 +326,7 @@ header.left button.close {
     display: none;
     outline: none;
     padding: 0;
-    background-color: $colorlightpurple;
+    background-color: $colorLightPurple;
     border: 0;
     -webkit-appearance: none;
     opacity: 1;
@@ -344,11 +344,11 @@ header.left button.close {
 }
 
 header a {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 header a:hover {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     text-decoration: none;
 }
 
@@ -471,7 +471,7 @@ header .copyright {
 }
 
 .mobile-header button.menu-icon span {
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     border-radius: 10px;
     display: block;
     height: 4px;
@@ -484,7 +484,7 @@ header .copyright {
 }
 
 .mobile-header a {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 .mobile-header a:hover {
@@ -525,13 +525,13 @@ main.content.push {
 }
 
 .hero .cta {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     max-width: 600px;
     z-index: 1;
 }
 
 .hero .cta h1 {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     font-size: 60px;
     line-height: 0.7;
 }
@@ -559,7 +559,7 @@ section {
 }
 
 section.white-bg {
-    background: $colorlightpurple;
+    background: $colorLightPurple;
 }
 
 section.padding {
@@ -632,7 +632,7 @@ section.padding-60 {
 .service-item:hover {
     border-color: #FF5959;
     background: #FF5959;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.15);
@@ -640,7 +640,7 @@ section.padding-60 {
 
 .service-item:hover h4,
 .service-item:hover i {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 .timeline {
@@ -704,7 +704,7 @@ section.padding-60 {
     width: 8px;
     height: 8px;
     border: 1px solid #FF5959;
-    background-color: $colorlightpurple;
+    background-color: $colorLightPurple;
     border-radius: 100%;
     padding: 4.5px;
     top: 15%;
@@ -764,7 +764,7 @@ section.padding-60 {
 }
 
 .portfolio-item .details {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     position: absolute;
     padding: 0 25px;
     top: 25px;
@@ -773,7 +773,7 @@ section.padding-60 {
 }
 
 .portfolio-item .details h4 {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     margin: 0 0 4px;
     opacity: 0;
     transform: translateY(30px);
@@ -790,7 +790,7 @@ section.padding-60 {
 
 .portfolio-item .plus-icon {
     color: #FF5959;
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     border-radius: 100%;
     position: absolute;
     font-size: 16px;
@@ -889,7 +889,7 @@ section.padding-60 {
 
 .portfolio-filter li.current {
     background: #FF5959;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     padding: 6px 14px 4px;
     border-radius: 30px;
 }
@@ -905,7 +905,7 @@ section.padding-60 {
 }
 
 .price-item i {
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     font-size: 24px;
     color: #FF5959;
     display: block;
@@ -931,7 +931,7 @@ section.padding-60 {
 
 .price-item .plan {
     font-size: 12px;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #FF5959;
     border-radius: 25px;
     display: inline-block;
@@ -971,16 +971,16 @@ section.padding-60 {
 }
 
 .price-item.recommended {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #4A63E7;
 }
 
 .price-item.recommended .price {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 .price-item.recommended .price span {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
 }
 
 .testimonial-item {
@@ -1097,7 +1097,7 @@ section.padding-60 {
 .blog-item .category {
     border-radius: 50px;
     background: #FF5959;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     font-size: 12px;
     padding: 1px 8px;
     position: absolute;
@@ -1165,7 +1165,7 @@ section.padding-60 {
 
 .icon-circle {
     font-size: 24px;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     display: inline-block;
     background: #FF5959;
     border-radius: 50%;
@@ -1244,13 +1244,13 @@ section.padding-60 {
 }
 
 .btn-default {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #FF5959;
 }
 
 .btn-default:hover {
     background: #4A63E7;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -1262,12 +1262,12 @@ section.padding-60 {
 }
 
 .btn-alt {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #4A63E7;
 }
 
 .btn-alt:hover {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #FF5959;
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
@@ -1280,24 +1280,24 @@ section.padding-60 {
 }
 
 .btn-border {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #4A63E7;
 }
 
 .btn-border:hover {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #000;
 }
 
 .btn-border-light {
-    color: $colorlightpurple;
-    border: solid 1px $colorlightpurple;
+    color: $colorLightPurple;
+    border: solid 1px $colorLightPurple;
     background: transparent;
 }
 
 .btn-border-light:hover {
     color: #000;
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -1449,7 +1449,7 @@ section.padding-60 {
     font-weight: 400;
     line-height: 1.6;
     color: #333;
-    background-color: $colorlightpurple;
+    background-color: $colorLightPurple;
     background-image: none;
     border: solid 1px #E3E3E3;
     -webkit-box-shadow: none;
@@ -1539,7 +1539,7 @@ section.padding-60 {
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
     z-index: 3;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     cursor: default;
     background-color: #000;
     border-color: transparent;
@@ -1556,7 +1556,7 @@ section.padding-60 {
     line-height: 1.42857143;
     color: #1a1a1a;
     text-decoration: none;
-    background-color: $colorlightpurple;
+    background-color: $colorLightPurple;
     border: 1px solid #EEE;
     border-radius: 50%;
     width: 46px;
@@ -1571,7 +1571,7 @@ section.padding-60 {
 .pagination>li>span:focus,
 .pagination>li>span:hover {
     z-index: 2;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background-color: #000;
     border-color: transparent;
 }
@@ -1595,7 +1595,7 @@ section.padding-60 {
     height: 100%;
     font-size: 12px;
     line-height: 3px;
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     text-align: center;
     background-color: #FF5959;
     -webkit-box-shadow: none;
@@ -1617,7 +1617,7 @@ section.padding-60 {
 }
 
 .social-icons li a {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     background: #FF5959;
     border-radius: 50%;
     display: block;
@@ -1628,8 +1628,8 @@ section.padding-60 {
 }
 
 .social-icons li a:hover {
-    color: $colordarkpurple;
-    background: $colorlightpurple;
+    color: $colorDarkPurple;
+    background: $colorLightPurple;
 }
 
 
@@ -1656,7 +1656,7 @@ section.padding-60 {
 }
 
 #return-to-top i {
-    color: $colorlightpurple;
+    color: $colorLightPurple;
     margin: 0;
     position: relative;
     left: 14px;
@@ -1696,7 +1696,7 @@ section.padding-60 {
 }
 
 .background-white {
-    background: $colorlightpurple;
+    background: $colorLightPurple;
 }
 
 
@@ -1762,7 +1762,7 @@ section.padding-60 {
 
 .slick-prev:before {
     content: "";
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     display: block;
     width: 1px;
     height: 14px;
@@ -1777,7 +1777,7 @@ section.padding-60 {
 
 .slick-prev:after {
     content: "";
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     display: block;
     width: 1px;
     height: 14px;
@@ -1792,7 +1792,7 @@ section.padding-60 {
 
 .slick-next:before {
     content: "";
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     display: block;
     width: 1px;
     height: 14px;
@@ -1807,7 +1807,7 @@ section.padding-60 {
 
 .slick-next:after {
     content: "";
-    background: $colorlightpurple;
+    background: $colorLightPurple;
     display: block;
     width: 1px;
     height: 14px;

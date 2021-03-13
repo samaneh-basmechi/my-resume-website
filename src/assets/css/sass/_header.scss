@@ -1,13 +1,9 @@
-/*=================================================================*/
-
-
-/*                      HEADER
-/*=================================================================*/
+@import "mixins";
 
 header {
     &.left {
-        color: $colorlightpurple;
-        background: $colorpurple;
+        color: $colorLightPurple;
+        background: $colorPurple;
         border-radius: 20px;
         min-height: 620px;
         max-height: 620px;
@@ -62,11 +58,11 @@ header {
             display: none;
             outline: none;
             padding: 0;
-            background-color: $colorlightpurple;
+            background-color: $colorLightPurple;
             border: 0;
             -webkit-appearance: none;
             opacity: 1;
-            color: $colorgreen;
+            color: $colorGreen;
             font-weight: 400;
             font-size: 16px;
             border-radius: 50%;
@@ -80,9 +76,9 @@ header {
         }
     }
     a {
-        color: $colorlightpurple;
+        color: $colorLightPurple;
         &:hover {
-            color: $colorlightpurple;
+            color: $colorLightPurple;
             text-decoration: none;
         }
     }
@@ -93,7 +89,7 @@ header {
         &.dot {
             &:after {
                 content: '';
-                background-color: $colorgreen;
+                background-color: $colorGreen;
                 border-radius: 50%;
                 display: inline-block;
                 margin-left: 5px;
@@ -108,7 +104,7 @@ header {
     }
     .vertical-menu {
         font-size: 14px;
-        font-family: $fontstack;
+        font-family: $fontBody;
         list-style: none;
         padding: 0;
         margin: 0;
@@ -128,7 +124,7 @@ header {
                 &.active {
                     &:before {
                         content: '';
-                        background: $colorgreen;
+                        background: $colorGreen;
                         display: block;
                         height: 18px;
                         left: -30px;
@@ -147,7 +143,7 @@ header {
 }
 
 .mobile-header {
-    background: $colorpurple;
+    background: $colorPurple;
     border-radius: 20px;
     display: none;
     -webkit-transform: translateX(0);
@@ -177,7 +173,7 @@ header {
         &.dot {
             &:after {
                 content: '';
-                background-color: $colorgreen;
+                background-color: $colorGreen;
                 border-radius: 50%;
                 display: inline-block;
                 margin-left: 5px;
@@ -194,7 +190,7 @@ header {
         vertical-align: middle;
         padding: 0;
         span {
-            background: $colorlightpurple;
+            background: $colorLightPurple;
             border-radius: 10px;
             display: block;
             height: 4px;
@@ -206,7 +202,7 @@ header {
         }
     }
     a {
-        color: $colorlightpurple;
+        color: $colorLightPurple;
         &:hover {
             text-decoration: none;
         }
