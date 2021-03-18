@@ -2,17 +2,32 @@
 <header class="left float-left shadow-dark" id="header">
     <div class="header-box d-flex align-items-start flex-column">
         <a href="index.html" class="desktop-logo"><img src="assets/img/cover.jpg" alt="Samaneh Basmechi" /></a>
-        <a href="index.html" class="title dot mt-3">Samaneh Basmechi</a>
-        <span class="description">Front-End Developer</span>
+        <a href="index.html" class="title dot mt-3">{{'HEADER.NAME'|translate}}</a>
+        <span class="description">{{'HEADER.JOB'|translate}}</span>
 
         <!-- menu -->
         <nav>
             <ul class="menu scrollspy">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-file-pdf-o"></i>Resume</a></li>
-                <li><a href="#"><i class="fa fa-th"></i>Works</a></li>
-                <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+                <li><a href="#" class="active"><i
+                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+                  class="fa fa-home icon"></i>{{'HEADER.HOME'|translate}}</a>
+                </li>
+                <li><a href="#"><i
+                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+                  class="fa fa-user icon"></i>{{'HEADER.ABOUT'|translate}}</a>
+                </li>
+                <li><a href="#"><i
+                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+                  class="fa fa-file-pdf-o icon"></i>{{'HEADER.RESUME'|translate}}</a>
+                </li>
+                <li><a href="#"><i
+                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+                  class="fa fa-th icon"></i>{{'HEADER.WORKS'|translate}}</a>
+                </li>
+                <li><a href="#"><i
+                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+                  class="fa fa-phone icon"></i>{{'HEADER.CONTACT'|translate}}</a>
+                </li>
             </ul>
         </nav>
 
@@ -24,6 +39,7 @@
                 <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
+                <li class="list-inline-item"><a (click)="useLanguage()" href="#"><i class="fa fa-language"></i></a></li>
             </ul>
 
         </div>

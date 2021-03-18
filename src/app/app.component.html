@@ -1,4 +1,4 @@
-<div class="container">
+<div id="container" class="container" [ngClass]="translatorService.lang ==='en' ? 'dir-ltr' : 'dir-rtl'">
 
     <!-- header -->
     <app-header></app-header>

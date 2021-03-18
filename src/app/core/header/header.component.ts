@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {TranslatorService} from '../services/translator';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
 
-  constructor() { }
+export class HeaderComponent{
 
-  ngOnInit(): void {
+  constructor(
+    public translatorService: TranslatorService) {
   }
 
+  useLanguage() {
+    this.translatorService.translator();
+  }
 }

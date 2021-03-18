@@ -1,7 +1,12 @@
 body {
+  &.text-right{
+    font-family: $FaFontBody;
+  }
+  &.text-left{
+    font-family: $EnFontBody;
+  }
     color: #888;
     background-color: #F6F7FF;
-    font-family: $fontBody;
     font-size: $fontSize;
     line-height: 1.7;
     overflow-x: hidden;
@@ -36,7 +41,6 @@ h4,
 h5,
 h6 {
     color: $colorBlack;
-    font-family: $fontBody;
     font-weight: 700;
     margin: 20px 0;
 }
