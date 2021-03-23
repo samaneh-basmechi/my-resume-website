@@ -1,0 +1,104 @@
+{
+  "NAME": "Samaneh Basmechi",
+  "EMAIL": "samanehbasmechi@gmail.com",
+  "HEADER": {
+    "NAME": "Samaneh Basmechi",
+    "JOB": "Front-End Developer",
+    "HOME": "Home",
+    "ABOUT": "About me",
+    "EXPERIENCE": "Experience",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact me"
+  },
+  "HOME": {
+    "SUBJECT": "I’m",
+    "NAME": "Samaneh Basmechi",
+    "DESCRIPTION": "Hi my friend, welcome to my website, please read my resume if you want to know more about me.",
+    "CHOOSELANGUAGE": "Choose language:"
+  },
+  "ABOUT": {
+    "ABOUTME": "About Me",
+    "DESCRIPTION": "I am Samaneh Basmechi, Frontend Developer from Tehran, Iran. I have experience in web site design and building and customization.",
+    "TITLE": {
+      "NAME": "Name: ",
+      "BIRTHDAY": "Birthday: ",
+      "LOCATION": "Location: ",
+      "EMAIL": "Email: "
+    },
+    "INFO": {
+      "BIRTHDAY": "29 jun, 1996",
+      "LOCATION": "Tehran, Iran"
+    },
+    "BUTTON": {
+      "DOWNLOADCV": "Download CV",
+      "HIREME": "Hire me"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experience",
+    "WORKS": [
+      {
+        "TITLE": "Angular Team Lead",
+        "DATE": "Dec 2020 - Present",
+        "COMPANYNAME": "Address Click Company"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "Apr 2020 - Dec 2020",
+        "COMPANYNAME": "Dadeh Kavan Apadana Company"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "Agu 2019 - Apr 2020",
+        "COMPANYNAME": "Carpino Company"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "Oct 2018 - Sep 2019",
+        "COMPANYNAME": "Mir Alavi Company (Aloostad)"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "Jan 2015 - Present",
+        "COMPANYNAME": "Freelancing"
+      }
+    ]
+  },
+  "SKILL": {
+    "TITLE": "My Skills"
+  },
+  "CONTACT": {
+    "TITLE": "Contact me",
+    "INFO": [
+      {
+        "TITLE": "Email address",
+        "DESCRIPTION": "samanehbasmechi@gmail.com",
+        "ICON": "fa-envelope"
+      },
+      {
+        "TITLE": "Location",
+        "DESCRIPTION": "Tehran, Iran",
+        "ICON": "fa-map-marker"
+      }
+    ],
+    "FORM": {
+      "NAME": {
+        "PLACEHOLDER": "Your name",
+        "ERRORMSG": "Name is required."
+      },
+      "EMAIL": {
+        "PLACEHOLDER": "Email address",
+        "ERRORMSG": "Email is required."
+      },
+      "SUBJECT": {
+        "PLACEHOLDER": "Subject",
+        "ERRORMSG": "Subject is required."
+      },
+      "MESSAGE": {
+        "PLACEHOLDER": "Message",
+        "ERRORMSG": "Message is required."
+      },
+      "SENDBTN": "Send Message"
+    }
+  }
+}

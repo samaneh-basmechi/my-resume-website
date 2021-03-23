@@ -1,0 +1,104 @@
+{
+  "NAME": "سمانه باسمه چی",
+  "EMAIL": "samanehbasmechi@gmail.com",
+  "HEADER": {
+    "NAME": "سمانه باسمه چی",
+    "JOB": "برنامه نویس",
+    "HOME": "خانه",
+    "ABOUT": "درباره من",
+    "EXPERIENCE": "تجربه کاری",
+    "SKILLS": "مهارت ها",
+    "CONTACT": "تماس با من"
+  },
+  "HOME": {
+    "SUBJECT": "من",
+    "NAME": "سمانه باسمه چی هستم.",
+    "DESCRIPTION": "سلام دوست خوبم به وبسایت من خوش اومدی. اگه دوست داری بیشتر درمورد من بدونی لطفا رزومه من رو مطالعه کن.",
+    "CHOOSELANGUAGE": "زبان مورد نظرتو انتخاب کن:"
+  },
+  "ABOUT": {
+    "ABOUTME": "درباره من",
+    "DESCRIPTION": "من سمانه باسمه چی هستم ، توسعه دهنده Frontend و ساکن ایران شهر تهران. من تجربه طراحی و ساخت وب سایت و شخصی سازی آن را دارم.",
+    "TITLE": {
+      "NAME": "نام: ",
+      "BIRTHDAY": "تاریخ تولد: ",
+      "LOCATION": "محل سکونت: ",
+      "EMAIL": "ایمیل: "
+    },
+    "INFO": {
+      "BIRTHDAY": "9 تیر 1375",
+      "LOCATION": "تهران ایران"
+    },
+    "BUTTON": {
+      "DOWNLOADCV": "دانلود رزومه",
+      "HIREME": "استخدام"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "تجربه کاری",
+    "WORKS": [
+      {
+        "TITLE": "Angular Team Lead",
+        "DATE": "آذر1399 - تاکنون",
+        "COMPANYNAME": "شرکت آدرس کلیک"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "فروردین1399 - آذر1399",
+        "COMPANYNAME": "شرکت داده کاوان آپادانا"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "مرداد1398 - فروردین1399",
+        "COMPANYNAME": "شرکت کارپینو"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "مهر1397 - شهریور1398",
+        "COMPANYNAME": "موسسه فنی میرعلوی"
+      },
+      {
+        "TITLE": "Frontend Developer",
+        "DATE": "دی1393 - تاکنون",
+        "COMPANYNAME": "آزادکار"
+      }
+    ]
+  },
+  "SKILL": {
+    "TITLE": "مهارت ها"
+  },
+  "CONTACT": {
+    "TITLE": "تماس با من",
+    "INFO": [
+      {
+        "TITLE": "ایمیل: ",
+        "DESCRIPTION": "samanehbasmechi@gmail.com",
+        "ICON": "fa-envelope"
+      },
+      {
+        "TITLE": "محل سکونت",
+        "DESCRIPTION": "ایران تهران",
+        "ICON": "fa-map-marker"
+      }
+    ],
+    "FORM": {
+      "NAME": {
+        "PLACEHOLDER": "نام شما...",
+        "ERRORMSG": "وارد کردن نام اجباری است."
+      },
+      "EMAIL": {
+        "PLACEHOLDER": "ایمیل شما...",
+        "ERRORMSG": "وارد کردن ایمیل اجباری است."
+      },
+      "SUBJECT": {
+        "PLACEHOLDER": "موضوع...",
+        "ERRORMSG": "وارد کردن موضوع اجباری است."
+      },
+      "MESSAGE": {
+        "PLACEHOLDER": "پیام...",
+        "ERRORMSG": "وارد کردن پیام اجباری است."
+      },
+      "SENDBTN": "ارسال پیام"
+    }
+  }
+}

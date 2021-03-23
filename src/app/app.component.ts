@@ -1,25 +1,14 @@
-import { Component, OnInit, HostListener } from '@angular/core';
-import { RootScopeService } from './services/root-scope/root-scope.service';
-import { SeoService } from './services/seo/seo.service';
+import { Component } from '@angular/core';
+import {TranslatorService} from './core/services/translator/translator';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './app.component.html'
 })
-export class AppComponent implements OnInit {
-
-  title = 'Samaneh-Basmechi-Website';
-
+export class AppComponent {
   constructor(
-    public rootScope: RootScopeService,
-    public seo: SeoService) {}
-
-  ngOnInit(): void {}
-
-  @HostListener('window:resize', ['$event'])
-  onResize($event) {
-    this.rootScope.setViewType();
+    public translatorService: TranslatorService) {
+    this.translatorService.setDefualtLang();
   }
 
 }
