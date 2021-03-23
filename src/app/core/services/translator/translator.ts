@@ -10,17 +10,13 @@ export class TranslatorService {
 
   constructor( public translateService: TranslateService) {}
 
-  translator() {
-    if (localStorage.getItem('language') === 'en'){
-      this.lang = 'fa';
-      this.translateService.use('fa');
-      localStorage.setItem('language', 'fa');
-    }else{
-      this.lang = 'en';
-      this.translateService.use('en');
-      localStorage.setItem('language', 'en');
+  translator(lang) {
+  if (lang !== this.lang){
+      this.lang = lang;
+      this.translateService.use(lang);
+      localStorage.setItem('language', lang);
+      this.checkLang();
     }
-    this.checkLang();
   }
 
   async setDefualtLang(){

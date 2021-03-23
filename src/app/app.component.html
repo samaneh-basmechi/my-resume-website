@@ -1,8 +1,7 @@
-<div id="container" class="container" [ngClass]="translatorService.lang ==='en' ? 'dir-ltr' : 'dir-rtl'">
+<div id="container" class="container d-flex justify-content-between" [ngClass]="translatorService.lang ==='en' ? 'dir-ltr' : 'dir-rtl'">
 
     <!-- header -->
     <app-header></app-header>
     <!-- content -->
     <router-outlet></router-outlet>
-
 </div>

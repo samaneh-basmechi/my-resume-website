@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslatorService} from '../../core/services/translator/translator';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(public translatorService: TranslatorService) { }
 
   ngOnInit(): void {
+  }
+
+  useLanguage(lang: string) {
+    this.translatorService.translator(lang);
   }
 
 }

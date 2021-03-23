@@ -2,31 +2,41 @@
 <header class="left float-left shadow-dark" id="header">
     <div class="header-box d-flex align-items-start flex-column">
         <a href="index.html" class="desktop-logo"><img src="assets/img/cover.jpg" alt="Samaneh Basmechi" /></a>
-        <a href="index.html" class="title dot mt-3">{{'HEADER.NAME'|translate}}</a>
+        <a href="index.html" class="title mt-3">{{'HEADER.NAME'|translate}}</a>
         <span class="description">{{'HEADER.JOB'|translate}}</span>
 
         <!-- menu -->
         <nav>
             <ul class="menu scrollspy">
-                <li><a href="#" class="active"><i
-                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
-                  class="fa fa-home icon"></i>{{'HEADER.HOME'|translate}}</a>
+                <li>
+                  <a (click)="scroll('home')" class="cursor-pointer" [ngClass]="activeLinkName==='home'?'active':''">
+                    <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"  class="fa fa-home icon"></i>
+                    {{'HEADER.HOME'|translate}}
+                  </a>
                 </li>
-                <li><a href="#"><i
-                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
-                  class="fa fa-user icon"></i>{{'HEADER.ABOUT'|translate}}</a>
+                <li>
+                  <a (click)="scroll('about')" class="cursor-pointer" [ngClass]="activeLinkName==='about'?'active':''">
+                    <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-user icon"></i>
+                    {{'HEADER.ABOUT'|translate}}
+                  </a>
                 </li>
-                <li><a href="#"><i
-                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
-                  class="fa fa-file-pdf-o icon"></i>{{'HEADER.RESUME'|translate}}</a>
-                </li>
-                <li><a href="#"><i
-                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
-                  class="fa fa-th icon"></i>{{'HEADER.WORKS'|translate}}</a>
-                </li>
-                <li><a href="#"><i
-                  [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
-                  class="fa fa-phone icon"></i>{{'HEADER.CONTACT'|translate}}</a>
+              <li>
+                <a (click)="scroll('experience')" class="cursor-pointer" [ngClass]="activeLinkName==='experience'?'active':''">
+                  <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-building icon"></i>
+                  {{'HEADER.EXPERIENCE'|translate}}
+                </a>
+              </li>
+              <li>
+                <a (click)="scroll('skills')" class="cursor-pointer" [ngClass]="activeLinkName==='skills'?'active':''">
+                  <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-tasks icon"></i>
+                  {{'HEADER.SKILLS'|translate}}
+                </a>
+              </li>
+                <li>
+                  <a (click)="scroll('contact')" class="cursor-pointer" [ngClass]="activeLinkName==='contact'?'active':''">
+                    <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-phone icon"></i>
+                    {{'HEADER.CONTACT'|translate}}
+                  </a>
                 </li>
             </ul>
         </nav>
@@ -36,10 +46,15 @@
 
             <!-- social icons -->
             <ul class="social-icons list-inline text-center">
-                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
-                <li class="list-inline-item"><a (click)="useLanguage()" href="#"><i class="fa fa-language"></i></a></li>
+                <li
+                  data-toggle="tooltip" data-placement="top" title="Instagram"
+                  class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li
+                  data-toggle="tooltip" data-placement="top" title="Linkedin"
+                  class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li
+                  data-toggle="tooltip" data-placement="top" title="github"
+                  class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
             </ul>
 
         </div>

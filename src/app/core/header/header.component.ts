@@ -1,5 +1,5 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
-import {TranslatorService} from '../services/translator';
+import {TranslatorService} from '../services/translator/translator';
 
 @Component({
   selector: 'app-header',
@@ -8,12 +8,18 @@ import {TranslatorService} from '../services/translator';
 })
 
 export class HeaderComponent{
-
+  activeLinkName = 'home';
   constructor(
     public translatorService: TranslatorService) {
   }
 
-  useLanguage() {
-    this.translatorService.translator();
+  scroll(htmlId: string){
+    if (htmlId === 'home'){
+      window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
+    }else{
+      const element = document.getElementById(htmlId);
+      element.scrollIntoView({behavior: 'smooth'});
+    }
+    this.activeLinkName = htmlId;
   }
 }

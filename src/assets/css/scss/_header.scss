@@ -20,9 +20,7 @@ header {
   .footer {
     .social-icons {
       li {
-        &:not(:last-child) {
-          margin-right: .3rem;
-        }
+          margin:0 .15rem;
         a {
           color: $colorPink;
           background: $colorGray;
@@ -42,7 +40,7 @@ header {
   }
   &.left {
     color: $colorGray;
-    background: $colorPink;
+    background-color: $colorPink;
     border-radius: 20px;
     min-height: 620px;
     max-height: 620px;
@@ -148,6 +146,7 @@ header {
             top: 7px;
             position: absolute;
             width: 3px;
+
           }
         }
       }
