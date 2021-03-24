@@ -1,14 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 declare var $;
+
 @Injectable({
   providedIn: 'root'
 })
+
 export class SeoService {
 
   constructor(private meta: Meta) { }
 
-  generateTags(config) {
+  private generateTags(config) {
     let title = 'Samaneh Basmechi';
     if (config.title) {
       title = config.title + ' - ' + title;

@@ -5,9 +5,10 @@ import {TranslatorService} from './core/services/translator/translator';
   selector: 'app-root',
   templateUrl: './app.component.html'
 })
+
 export class AppComponent {
-  constructor(
-    public translatorService: TranslatorService) {
+
+  constructor(public translatorService: TranslatorService) {
     this.translatorService.setDefualtLang();
   }
 

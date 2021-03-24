@@ -28,10 +28,10 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                            "node_modules/font-awesome/scss/font-awesome.scss",
-                            "src/assets/css/style.scss",
-                            "src/styles.scss"
+                          "node_modules/font-awesome/css/font-awesome.css",
+                          "src/assets/css/bootstrap/bootstrap.min.css",
+                          "src/assets/css/style.scss",
+                          "src/styles.scss"
                         ],
                         "scripts": []
                     },
