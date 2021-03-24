@@ -1,0 +1,19 @@
+<!-- section experience -->
+<section id="experience" class="shadow-blue white-bg padding">
+  <h3 class="section-title">{{'EXPERIENCE.TITLE' | translate}}</h3>
+  <div class="spacer" data-height="80" style="height: 80px"></div>
+
+  <!-- timeline -->
+  <div class="timeline text-left">
+    <div class="entry" *ngFor="let item of ('EXPERIENCE.WORKS' | translate)">
+      <div class="title">
+        <span>{{item.DATE}}</span>
+      </div>
+      <div class="body">
+        <h4 class="mt-0">{{item.TITLE}}</h4>
+        <p>{{item.COMPANYNAME}}</p>
+      </div>
+    </div>
+    <span class="timeline-line"></span>
+  </div>
+</section>
