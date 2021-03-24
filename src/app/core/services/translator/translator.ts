@@ -6,11 +6,11 @@ import {TranslateService} from '@ngx-translate/core';
 })
 
 export class TranslatorService {
-  lang: string;
+  public lang: string;
 
-  constructor( public translateService: TranslateService) {}
+  constructor(private translateService: TranslateService) {}
 
-  translator(lang) {
+  public translator(lang) {
   if (lang !== this.lang){
       this.lang = lang;
       this.translateService.use(lang);
@@ -19,14 +19,14 @@ export class TranslatorService {
     }
   }
 
-  async setDefualtLang(){
+  public setDefualtLang(){
     this.lang = localStorage.getItem('language') || 'en';
     this.translateService.setDefaultLang(this.lang);
     this.translateService.use(this.lang);
     this.checkLang();
   }
 
-  checkLang(){
+  private checkLang(){
     if (this.lang === 'fa'){
       document.getElementById('body').classList.replace('text-left' , 'text-right');
     }else {

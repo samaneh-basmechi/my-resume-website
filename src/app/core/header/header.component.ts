@@ -1,19 +1,19 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {TranslatorService} from '../services/translator/translator';
 
+type htmlIdType = 'home'|'about'|'experience'|'skills'|'contact' ;
+
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  templateUrl: './header.component.html'
 })
 
 export class HeaderComponent{
-  activeLinkName = 'home';
-  constructor(
-    public translatorService: TranslatorService) {
-  }
+  public activeLinkName:htmlIdType = 'home';
 
-  scroll(htmlId: string){
+  constructor(public translatorService: TranslatorService) {}
+
+  public scroll(htmlId: htmlIdType){
     if (htmlId === 'home'){
       window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
     }else{
