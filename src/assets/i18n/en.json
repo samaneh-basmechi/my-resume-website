@@ -11,14 +11,14 @@
     "CONTACT": "Contact me"
   },
   "HOME": {
-    "SUBJECT": "I’m",
-    "NAME": "Samaneh Basmechi",
-    "DESCRIPTION": "Hi my friend, welcome to my website, please read my resume if you want to know more about me.",
+    "SUBJECT": "Welcome to my website",
+    "NAME": "",
+    "DESCRIPTION": "If you would like to know more about my work experience and skills, please download and read my CV.",
     "CHOOSELANGUAGE": "Choose language:"
   },
   "ABOUT": {
     "ABOUTME": "About Me",
-    "DESCRIPTION": "I am Samaneh Basmechi, Frontend Developer from Tehran, Iran. I have experience in web site design and building and customization.",
+    "DESCRIPTION": "I am Samaneh Basmechi, Frontend Developer from Tehran, Iran. I have implemented some web sites and admin panels and customized them.",
     "TITLE": {
       "NAME": "Name: ",
       "BIRTHDAY": "Birthday: ",
@@ -38,8 +38,13 @@
     "TITLE": "Experience",
     "WORKS": [
       {
+        "TITLE": "Frontend Developer",
+        "DATE": "Jun 2021 - Present",
+        "COMPANYNAME": "Digikala Company"
+      },
+      {
         "TITLE": "Angular Team Lead",
-        "DATE": "Dec 2020 - Present",
+        "DATE": "Dec 2020 - Jun 2021",
         "COMPANYNAME": "Address Click Company"
       },
       {
@@ -59,13 +64,13 @@
       },
       {
         "TITLE": "Frontend Developer",
-        "DATE": "Jan 2015 - Present",
+        "DATE": "Jan 2015 - Oct 2018 ",
         "COMPANYNAME": "Freelancing"
       }
     ]
   },
   "SKILL": {
-    "TITLE": "My Skills"
+    "TITLE": "My Professional Skills"
   },
   "CONTACT": {
     "TITLE": "Contact me",

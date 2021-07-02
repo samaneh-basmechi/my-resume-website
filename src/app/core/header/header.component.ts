@@ -1,7 +1,7 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {TranslatorService} from '../services/translator/translator';
 
-type htmlIdType = 'home'|'about'|'experience'|'skills'|'contact' ;
+type htmlIdType = 'home'|'about'|'experience'|'skill'|'contact' ;
 
 @Component({
   selector: 'app-header',
@@ -9,11 +9,11 @@ type htmlIdType = 'home'|'about'|'experience'|'skills'|'contact' ;
 })
 
 export class HeaderComponent{
-  public activeLinkName:htmlIdType = 'home';
+  public activeLinkName: htmlIdType = 'home';
 
   constructor(public translatorService: TranslatorService) {}
 
-  public scroll(htmlId: htmlIdType){
+  public scroll(htmlId: htmlIdType): void{
     if (htmlId === 'home'){
       window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
     }else{

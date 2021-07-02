@@ -27,7 +27,7 @@
                 </a>
               </li>
               <li>
-                <a (click)="scroll('skills')" class="cursor-pointer" [ngClass]="activeLinkName==='skills'?'active':''">
+                <a (click)="scroll('skill')" class="cursor-pointer" [ngClass]="activeLinkName==='skill'?'active':''">
                   <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-tasks icon"></i>
                   {{'HEADER.SKILLS'|translate}}
                 </a>
@@ -48,13 +48,13 @@
             <ul class="social-icons list-inline text-center">
                 <li
                   data-toggle="tooltip" data-placement="top" title="Instagram"
-                  class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  class="list-inline-item"><a disabled ><i class="fa fa-instagram"></i></a></li>
                 <li
                   data-toggle="tooltip" data-placement="top" title="Linkedin"
-                  class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/samaneh-basmechi-166bb2197/"><i class="fa fa-linkedin"></i></a></li>
                 <li
                   data-toggle="tooltip" data-placement="top" title="github"
-                  class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
+                  class="list-inline-item"><a target="_blank" href="https://github.com/samaneh-basmechi"><i class="fa fa-github"></i></a></li>
             </ul>
 
         </div>

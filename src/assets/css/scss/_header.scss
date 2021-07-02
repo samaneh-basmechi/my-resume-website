@@ -22,8 +22,8 @@ header {
       li {
           margin:0 .15rem;
         a {
-          color: $colorPink;
-          background: $colorGray;
+          color: $iconColor;
+          background: $iconBgColor;
           border-radius: 50%;
           display: block;
           height: 30px;
@@ -31,16 +31,16 @@ header {
           text-align: center;
           width: 30px;
           &:hover {
-            color: $colorGray;
-            background: $colorCream;
+            color: $iconHoverColor;
+            background: $iconBgHoverColor;
           }
         }
       }
     }
   }
   &.left {
-    color: $colorGray;
-    background-color: $colorPink;
+    color: $titleColor;
+    background-color: $headerBgColor;
     border-radius: 20px;
     min-height: 620px;
     max-height: 620px;
@@ -75,11 +75,11 @@ header {
       display: none;
       outline: none;
       padding: 0;
-      background-color: $colorGray;
+      background-color: $headerBtnColor;
       border: 0;
       -webkit-appearance: none;
       opacity: 1;
-      color: $colorGray;
+      color: $headerBtnColor;
       font-weight: 400;
       font-size: 16px;
       border-radius: 50%;
@@ -93,9 +93,9 @@ header {
     }
   }
   a {
-    color: $colorGray;
+    color: $titleColor;
     &:hover {
-      color: $colorGray;
+      color: $titleColor;
       text-decoration: none;
     }
   }
@@ -106,7 +106,7 @@ header {
     &.dot {
       &:after {
         content: '';
-        background-color: $colorGray;
+        background-color: $headerBtnColor;
         border-radius: 50%;
         display: inline-block;
         margin: 0 5px;
@@ -140,7 +140,7 @@ header {
         &.active {
           &:before {
             content: '';
-            background: $colorGray;
+            background: $headerBtnColor;
             display: block;
             height: 18px;
             top: 7px;

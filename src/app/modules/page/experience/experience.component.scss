@@ -1,3 +1,5 @@
+@import "src/assets/css/scss/variables";
+
 .skill-item .skill-info span {
   font-size: 14px;
 }
@@ -51,13 +53,13 @@
   left: calc(20% + 2px);
   bottom: 0px;
   width: 1px;
-  background: #585858;
+  background: $timelineColor;
 }
 .timeline-line::before, .timeline-line::after {
   content: "";
   display: block;
   border-radius: 100%;
-  background: #585858;
+  background: $timelineColor;
   position: absolute;
   left: -3px;
   height: 7px;
