@@ -9,31 +9,31 @@
         <nav>
             <ul class="menu scrollspy">
                 <li>
-                  <a (click)="scroll('home')" class="cursor-pointer" [ngClass]="activeLinkName==='home'?'active':''">
+                  <a (click)="scroll.transfer('home')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='home'?'active':''">
                     <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"  class="fa fa-home icon"></i>
                     {{'HEADER.HOME'|translate}}
                   </a>
                 </li>
                 <li>
-                  <a (click)="scroll('about')" class="cursor-pointer" [ngClass]="activeLinkName==='about'?'active':''">
+                  <a (click)="scroll.transfer('about')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='about'?'active':''">
                     <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-user icon"></i>
                     {{'HEADER.ABOUT'|translate}}
                   </a>
                 </li>
               <li>
-                <a (click)="scroll('experience')" class="cursor-pointer" [ngClass]="activeLinkName==='experience'?'active':''">
+                <a (click)="scroll.transfer('experience')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='experience'?'active':''">
                   <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-building icon"></i>
                   {{'HEADER.EXPERIENCE'|translate}}
                 </a>
               </li>
               <li>
-                <a (click)="scroll('skill')" class="cursor-pointer" [ngClass]="activeLinkName==='skill'?'active':''">
+                <a (click)="scroll.transfer('skill')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='skill'?'active':''">
                   <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-tasks icon"></i>
                   {{'HEADER.SKILLS'|translate}}
                 </a>
               </li>
                 <li>
-                  <a (click)="scroll('contact')" class="cursor-pointer" [ngClass]="activeLinkName==='contact'?'active':''">
+                  <a (click)="scroll.transfer('contact')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='contact'?'active':''">
                     <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-phone icon"></i>
                     {{'HEADER.CONTACT'|translate}}
                   </a>
