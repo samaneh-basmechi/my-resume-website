@@ -9,6 +9,9 @@ import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageComponent } from './page.component';
 import {TranslateModule} from '@ngx-translate/core';
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {ShareModule} from '../../share/share.module';
 
 @NgModule({
   declarations: [
@@ -19,9 +22,13 @@ import {TranslateModule} from '@ngx-translate/core';
     ContactComponent,
     PageComponent],
   imports: [
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
     CommonModule,
     PageRoutingModule,
-    TranslateModule
+    TranslateModule,
+    ShareModule
   ]
 })
 export class PageModule { }

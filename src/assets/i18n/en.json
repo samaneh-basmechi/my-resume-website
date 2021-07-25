@@ -88,11 +88,11 @@
     ],
     "FORM": {
       "NAME": {
-        "PLACEHOLDER": "Your name",
-        "ERRORMSG": "Name is required."
+        "PLACEHOLDER": "Your fullName",
+        "ERRORMSG": "FullName is required."
       },
       "EMAIL": {
-        "PLACEHOLDER": "Email address",
+        "PLACEHOLDER": "Your email address",
         "ERRORMSG": "Email is required."
       },
       "SUBJECT": {
@@ -100,7 +100,7 @@
         "ERRORMSG": "Subject is required."
       },
       "MESSAGE": {
-        "PLACEHOLDER": "Message",
+        "PLACEHOLDER": "Your message",
         "ERRORMSG": "Message is required."
       },
       "SENDBTN": "Send Message"

@@ -1,5 +1,7 @@
 <!-- section contact -->
 <section id="contact" class="shadow-blue padding">
+  <app-snack-bar></app-snack-bar>
+
   <h3 class="section-title">{{'CONTACT.TITLE' | translate}}</h3>
   <div class="spacer" style="height: 80px"></div>
 
@@ -18,12 +20,13 @@
 
     <div class="col-md-8">
       <!-- Contact Form -->
-      <form id="contact-form" class="contact-form">
+      <form [formGroup]="formData" (ngSubmit)="onSubmit()" id="contact-form" class="contact-form">
 
         <div class="row">
           <div class="column col-md-6">
             <div class="form-group">
               <input
+                formControlName="fullname"
                 type="text"
                 class="form-control"
                 name="InputName"
@@ -36,6 +39,7 @@
           <div class="column col-md-6">
             <div class="form-group">
               <input
+                formControlName="email"
                 type="email"
                 class="form-control"
                 id="InputEmail"
@@ -48,6 +52,7 @@
           <div class="column col-md-12">
             <div class="form-group">
               <input
+                formControlName="subject"
                 type="text"
                 class="form-control"
                 id="InputSubject"
@@ -60,6 +65,7 @@
           <div class="column col-md-12">
             <div class="form-group">
                 <textarea
+                  formControlName="message"
                   name="InputMessage"
                   id="InputMessage"
                   class="form-control"
@@ -79,5 +85,4 @@
     </div>
 
   </div>
-
 </section>
