@@ -7,7 +7,7 @@ import {Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class ContactService {
-  api = 'https://mailthis.to/business.samanehbasmechi@gmail.com';
+  api = 'https://mailthis.to/samanehbasmechi@gmail.com';
 
   constructor(private http: HttpClient) {
   }
