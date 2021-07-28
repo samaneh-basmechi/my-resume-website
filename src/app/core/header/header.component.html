@@ -1,62 +1,78 @@
 <!-- header -->
 <header class="left float-left shadow-dark" id="header">
-    <div class="header-box d-flex align-items-start flex-column">
-        <a href="index.html" class="desktop-logo"><img src="assets/img/cover.jpg" alt="Samaneh Basmechi" /></a>
-        <a href="index.html" class="title mt-3">{{'HEADER.NAME'|translate}}</a>
-        <span class="description">{{'HEADER.JOB'|translate}}</span>
+  <div class="header-box d-flex align-items-start flex-column">
+    <a href="index.html" class="desktop-logo"><img src="assets/img/cover.jpg" alt="Samaneh Basmechi"/></a>
+    <a href="index.html" class="title mt-3">{{'HEADER.NAME'|translate}}</a>
+    <span class="description">{{'HEADER.JOB'|translate}}</span>
 
-        <!-- menu -->
-        <nav>
-            <ul class="menu scrollspy">
-                <li>
-                  <a (click)="scroll.transfer('home')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='home'?'active':''">
-                    <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"  class="fa fa-home icon"></i>
-                    {{'HEADER.HOME'|translate}}
-                  </a>
-                </li>
-                <li>
-                  <a (click)="scroll.transfer('about')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='about'?'active':''">
-                    <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-user icon"></i>
-                    {{'HEADER.ABOUT'|translate}}
-                  </a>
-                </li>
-              <li>
-                <a (click)="scroll.transfer('experience')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='experience'?'active':''">
-                  <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-building icon"></i>
-                  {{'HEADER.EXPERIENCE'|translate}}
-                </a>
-              </li>
-              <li>
-                <a (click)="scroll.transfer('skill')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='skill'?'active':''">
-                  <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-tasks icon"></i>
-                  {{'HEADER.SKILLS'|translate}}
-                </a>
-              </li>
-                <li>
-                  <a (click)="scroll.transfer('contact')" class="cursor-pointer" [ngClass]="scroll.activeLinkName==='contact'?'active':''">
-                    <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'" class="fa fa-phone icon"></i>
-                    {{'HEADER.CONTACT'|translate}}
-                  </a>
-                </li>
-            </ul>
-        </nav>
+    <!-- menu -->
+    <nav>
+      <ul class="menu scrollspy">
+        <li>
+          <a (click)="scroll.transfer('home')" class="cursor-pointer"
+             [ngClass]="scroll.activeLinkName==='home'?'active':''">
+            <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+               class="fa fa-home icon"></i>
+            {{'HEADER.HOME'|translate}}
+          </a>
+        </li>
+        <li>
+          <a (click)="scroll.transfer('about')" class="cursor-pointer"
+             [ngClass]="scroll.activeLinkName==='about'?'active':''">
+            <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+               class="fa fa-user icon"></i>
+            {{'HEADER.ABOUT'|translate}}
+          </a>
+        </li>
+        <li>
+          <a (click)="scroll.transfer('experience')" class="cursor-pointer"
+             [ngClass]="scroll.activeLinkName==='experience'?'active':''">
+            <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+               class="fa fa-building icon"></i>
+            {{'HEADER.EXPERIENCE'|translate}}
+          </a>
+        </li>
+        <li>
+          <a (click)="scroll.transfer('skill')" class="cursor-pointer"
+             [ngClass]="scroll.activeLinkName==='skill'?'active':''">
+            <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+               class="fa fa-tasks icon"></i>
+            {{'HEADER.SKILLS'|translate}}
+          </a>
+        </li>
+        <li>
+          <a (click)="scroll.transfer('contact')" class="cursor-pointer"
+             [ngClass]="scroll.activeLinkName==='contact'?'active':''">
+            <i [style.margin]="translatorService.lang === 'fa' ? '0 0 0 10px' : '0 10px 0 0'"
+               class="fa fa-phone icon"></i>
+            {{'HEADER.CONTACT'|translate}}
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-        <!-- footer -->
-        <div class="footer mt-auto w-100">
+    <!-- footer -->
+    <div class="footer mt-auto w-100">
 
-            <!-- social icons -->
-            <ul class="social-icons list-inline text-center">
-                <li
-                  data-toggle="tooltip" data-placement="top" title="Instagram"
-                  class="list-inline-item"><a disabled ><i class="fa fa-instagram"></i></a></li>
-                <li
-                  data-toggle="tooltip" data-placement="top" title="Linkedin"
-                  class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/samaneh-basmechi-166bb2197/"><i class="fa fa-linkedin"></i></a></li>
-                <li
-                  data-toggle="tooltip" data-placement="top" title="github"
-                  class="list-inline-item"><a target="_blank" href="https://github.com/samaneh-basmechi"><i class="fa fa-github"></i></a></li>
-            </ul>
+      <!-- social icons -->
+      <ul class="social-icons list-inline text-center">
+        <li
+          data-toggle="tooltip" data-placement="top" title="Instagram"
+          class="list-inline-item">
+          <a target="_blank" href="https://instagram.com/bit_pack">
+            <i class="fa fa-instagram"></i></a></li>
+        <li
+          data-toggle="tooltip" data-placement="top" title="Linkedin"
+          class="list-inline-item">
+          <a target="_blank" href="https://www.linkedin.com/in/samaneh-basmechi-166bb2197/">
+            <i class="fa fa-linkedin"></i></a></li>
+        <li
+          data-toggle="tooltip" data-placement="top" title="github"
+          class="list-inline-item">
+          <a target="_blank" href="https://github.com/samaneh-basmechi">
+            <i class="fa fa-github"></i></a></li>
+      </ul>
 
-        </div>
     </div>
+  </div>
 </header>
