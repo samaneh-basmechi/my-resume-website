@@ -2,9 +2,11 @@
 
 
 ## Demo
-https://samaneh-basmechi.netlify.app
 
-![til](./src/assets/images/demo.png)
+![til](./src/assets/img/demo.png)
+
+## Demo Link
+https://samaneh-basmechi.netlify.app
 
 ## Development server
 
