@@ -1,11 +1,10 @@
 # SamanehBasmechi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 
-10.1.7.
-
 
 ## Demo
-https://samaneh-basmechi.netlify.app/main
+https://samaneh-basmechi.netlify.app
+
+![til](./src/assets/images/demo.png)
 
 ## Development server
 
