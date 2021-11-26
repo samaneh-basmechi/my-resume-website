@@ -1,16 +1,34 @@
 # SamanehBasmechi
 
 
-## Demo
 
 ![til](./src/assets/img/demo.png)
 
 ## Demo Link
 https://samaneh-basmechi.netlify.app
 
+## Usage
+
+Go to base directory and 
+
+- Install Project
+
+    ```bash
+    npm install
+    ```
+
+- Start the project
+
+    ```bash
+    npm start
+    ```
+     or
+    ```bash
+    ng serve
+    ```
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
