@@ -3,13 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ScullyLibModule } from '@scullyio/ng-lib';
 import {CoreModule} from './core/core.module';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
-export function createTranslateLoader(http: HttpClient) {
+export function createTranslateLoader(http: HttpClient): any {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
@@ -20,7 +19,6 @@ export function createTranslateLoader(http: HttpClient) {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ScullyLibModule,
     HttpClientModule,
     CoreModule,
     TranslateModule.forRoot({
